@@ -10,4 +10,4 @@ Basic landing page with parallax scrolling
 <center> <h1>Built With</h1> </center>
 
 - HTML
-- CSS (Bootstrap 5)
+- CSS 
