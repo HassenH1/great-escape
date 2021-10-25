@@ -11,11 +11,21 @@
     />
 
     <link rel="stylesheet" href="./style.css" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <!-- First section -->
     <div class="section" id="section1">
-      <div class="text-header">
+      <div class="title-header">
         <span>Great Escape.</span>
         <br />
         <!-- <span style="border: 1px solid red; width: 100px; height: 1px"></span> -->
@@ -29,52 +39,44 @@
     <!-- parallax -->
     <div class="parallax"></div>
     <!-- Main Content -->
+    <!-- First Section -->
+    <div class="header">
+      <h1>Feature</h1>
+    </div>
     <div class="container">
       <div class="flex_container">
         <div class="testContainer">
-          <div
-            style="
-              height: 100%;
-              align-items: center;
-              margin: 0 auto;
-              justify-content: center;
-              text-align: center;
-            "
-          >
-            <img
-              src="https://images.unsplash.com/photo-1498404781417-2b02e42ecd0d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2832&q=80"
-              alt=""
-              height="85%"
-              width="80%"
-            />
-            <div>
-              <h3>Trees are Life.</h3>
+          <a href="/">
+            <div class="picture_container">
+              <img
+                src="https://images.unsplash.com/photo-1498404781417-2b02e42ecd0d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2832&q=80"
+                alt=""
+                class="img"
+              />
+              <div>
+                <h3>Trees are Life.</h3>
+              </div>
             </div>
-          </div>
+          </a>
         </div>
         <div class="testContainer">
-          <div
-            style="
-              height: 100%;
-              align-items: center;
-              margin: 0 auto;
-              justify-content: center;
-              text-align: center;
-            "
-          >
-            <img
-              src="https://images.unsplash.com/photo-1548661651-9adb0e0ccc98?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80"
-              alt=""
-              height="85%"
-              width="80%"
-            />
-            <div>
-              <h3>Beach! Beach! Beach!</h3>
+          <a href="/">
+            <div class="picture_container">
+              <img
+                src="https://images.unsplash.com/photo-1548661651-9adb0e0ccc98?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80"
+                alt=""
+                class="img"
+              />
+              <div>
+                <h3>Beach! Beach! Beach!</h3>
+              </div>
             </div>
-          </div>
+          </a>
         </div>
       </div>
     </div>
+    <!-- Second Section -->
+    <div class="container"></div>
     <!-- <div class="container"></div> -->
     <!-- Second section -->
     <!-- <div class="section" id="section2">
@@ -88,6 +90,43 @@
       </div>
     </div> -->
     <!-- Main Footer -->
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="flex_container">
+        <div class="testContainer" style="border: 1px solid green"></div>
+        <div class="testContainer flex_direction">
+          <div class="half_height">Hello world</div>
+          <div class="half_height relative">
+            <ul
+              class="
+                footer-ul
+                zero_margin
+                flex_end
+                zero_padding
+                margin_horizontal
+                absolute
+                bottom_zero
+                right_zero
+              "
+            >
+              <li>
+                <div style="margin-left: 20px">
+                  <i class="fab fa-facebook"></i>
+                </div>
+              </li>
+              <li>
+                <div style="margin-left: 20px">
+                  <i class="fab fa-instagram"></i>
+                </div>
+              </li>
+              <li>
+                <div style="margin-left: 20px">
+                  <i class="fab fa-twitter"></i>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
