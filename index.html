@@ -93,12 +93,30 @@
     <footer class="footer">
       <div class="flex_container">
         <div class="testContainer"></div>
-        <div class="testContainer flex_direction">
-          <div class="half_height"></div>
+        <div class="testContainer flex_direction_column">
+          <div
+            class="half_height flex flex_direction_row"
+            style="justify-content: space-around"
+          >
+            <ul class="list_none">
+              <li>Stories</li>
+              <li>Journal</li>
+            </ul>
+            <ul class="list_none">
+              <li>Events</li>
+              <li>Shop</li>
+              <li>About</li>
+            </ul>
+            <ul class="list_none">
+              <li>Contact</li>
+              <li>FAQ</li>
+            </ul>
+          </div>
           <div class="half_height relative">
             <ul
               class="
-                footer-ul
+                flex
+                list_none
                 zero_margin
                 flex_end
                 zero_padding
@@ -130,5 +148,3 @@
     </footer>
   </body>
 </html>
-
-<!-- https://hassenh1.github.io/great-escape/ -->

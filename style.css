@@ -160,8 +160,12 @@ a {
   background-color: rgb(216, 216, 216);
 }
 
-.flex_direction {
+.flex_direction_column {
   flex-direction: column;
+}
+
+.flex_direction_row {
+  flex-direction: row;
 }
 
 .half_height {
@@ -215,4 +219,12 @@ a {
 
 .right_zero {
   right: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.list_none {
+  list-style: none;
 }
