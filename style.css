@@ -157,7 +157,7 @@ a {
 }
 
 .footer {
-  height: 300px;
+  height: 250px;
   background-color: rgb(216, 216, 216);
 }
 
@@ -180,6 +180,10 @@ a {
 
 .full_height {
   height: 100%;
+}
+
+.third_height {
+  height: 33.333%;
 }
 
 .full_width {
@@ -262,4 +266,8 @@ a {
   .parallax {
     background-attachment: scroll;
   }
+}
+
+.padding_top {
+  padding: 10px 0 0 0;
 }
