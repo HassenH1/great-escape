@@ -1,7 +1,8 @@
 :root {
   --parallax_size_1: 250px;
   --parallax_size_2: 250px;
-  --parallax_img_1: url("https://images.unsplash.com/photo-1462143338528-eca9936a4d09?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80");
+  --home_title_img: url("https://images.unsplash.com/photo-1462143338528-eca9936a4d09?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80");
+  --tree_title_img: url("https://images.unsplash.com/photo-1501856054482-8b7fbff7b3fe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2500&q=80");
 }
 
 body,
@@ -19,9 +20,25 @@ html {
   min-height: 100%;
 }
 
+.min_height_full {
+  min-height: 100%;
+}
+
+.min_height_75 {
+  min-height: 75%;
+}
+
+.min_height_half {
+  min-height: 50%;
+}
+
+.min_height_quarter {
+  min-height: 25%;
+}
+
 #section1 {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    var(--parallax_img_1);
+    var(--home_title_img);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -131,6 +148,13 @@ html {
   }
 }
 
+@media screen and (max-width: 800px) {
+  .tree_responsive_container {
+    min-width: 100%;
+    text-align: center;
+  }
+}
+
 .picture_container {
   height: 100%;
   align-items: center;
@@ -231,7 +255,35 @@ a {
 }
 
 .margin_vertical {
-  margin: auto 0;
+  margin: 20px auto;
+}
+
+.margin_vertical_full {
+  margin: 100% auto;
+}
+
+.margin_vertical_half {
+  margin: 50% auto;
+}
+
+.margin_vertical_quarter {
+  margin: 25% auto;
+}
+
+.margin_vertical_small {
+  margin: 10% auto;
+}
+
+.margin_vertical_xs {
+  margin: 5% auto;
+}
+
+.margin_center_horizontal {
+  margin: 0 auto;
+}
+
+.margin_half_horizontal {
+  margin: 0 50%;
 }
 
 .relative {
@@ -270,4 +322,15 @@ a {
 
 .padding_top {
   padding: 10px 0 0 0;
+}
+
+/*****background*****/
+
+#section2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    var(--tree_title_img);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
