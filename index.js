@@ -5,7 +5,7 @@ window.addEventListener("scroll", (event) => {
   let scroll = this.scrollY;
   if (scroll >= 230) {
     // tooltip.style.opacity = 1.0;
-    fade();
+    // fade();
     tooltip.style.display = "block";
   }
 });
@@ -20,9 +20,6 @@ function fade() {
     let num = 1 / i;
 
     tooltip.style.opacity = num;
-    // if (i === 0.9) {
-    //   i = 1;
-    // }
     console.log(num, "<=-=what is i?");
   }
 }
