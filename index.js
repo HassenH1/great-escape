@@ -10,12 +10,12 @@ window.addEventListener("scroll", (event) => {
   }
 });
 
-async function fade() {
+function fade() {
   if (tooltip.style.opacity >= 0.5) {
     return;
   }
   for (let i = 9; i >= 1; i--) {
-    await sleep(1000);
+    // await sleep(1000);
 
     let num = 1 / i;
 
@@ -27,6 +27,6 @@ async function fade() {
   }
 }
 
-function sleep(milliseconds) {
-  return new Promise((resolve) => setTimeout(resolve, milliseconds));
-}
+// function sleep(milliseconds) {
+//   return new Promise((resolve) => setTimeout(resolve, milliseconds));
+// }
