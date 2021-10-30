@@ -161,6 +161,10 @@ html {
   margin: 3rem 0;
 }
 
+.container_33 {
+  width: 33.333%;
+}
+
 @media screen and (max-width: 992px) {
   .flex_container {
     flex-direction: column;
@@ -258,8 +262,24 @@ a {
   padding: 0;
 }
 
-.border {
+.border_red {
   border: 1px solid red;
+}
+
+.border_green {
+  border: 1px solid green;
+}
+
+.border_purple {
+  border: 1px solid purple;
+}
+
+.border_orange {
+  border: 1px solid orange;
+}
+
+.flex_1 {
+  flex: 1;
 }
 
 .flex_end {
@@ -280,6 +300,14 @@ a {
 
 .align_items_center {
   align-items: center;
+}
+
+.margin_left_30 {
+  margin-left: 30px;
+}
+
+.margin_right_30 {
+  margin-right: 30px;
 }
 
 .margin_horizontal {
@@ -308,6 +336,11 @@ a {
 
 .margin_horizontal_xs {
   margin: 0 5%;
+}
+
+.margin_ver {
+  margin-top: 20px;
+  margin-bottom: 100px;
 }
 
 .margin_vertical {
@@ -390,6 +423,10 @@ a {
 
 .grid_template_columns_auto_2 {
   grid-template-columns: auto auto;
+}
+
+.gap_10px {
+  gap: 50px;
 }
 
 .grid_gap_full {
