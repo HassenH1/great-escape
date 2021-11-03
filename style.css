@@ -221,13 +221,13 @@ a {
   flex-direction: row;
 }
 
-.half_height {
-  height: 50%;
-}
-
 .footer-ul {
   display: flex;
   list-style: none;
+}
+
+.half_height {
+  height: 50%;
 }
 
 .full_height {
